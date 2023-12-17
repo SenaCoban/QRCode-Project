@@ -11,10 +11,10 @@ export class EmployeeService{
     
     getAllEmployee(){
         
-        return axios.get("http://qrcode.karel.com.tr:5006/api/Employee/GetEmployeeList");
+        return axios.get("");
     }
     
     getEmployeeById(id){
-        return axios.get("http://qrcode.karel.com.tr:5006/api/Employee/" + id);
+        return axios.get("" + id);
     }
 }
